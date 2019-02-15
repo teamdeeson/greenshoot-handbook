@@ -70,7 +70,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.p = "https://handbook.greenshootlabs.com/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 20);
+/******/ 	return __webpack_require__(__webpack_require__.s = 21);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -337,11 +337,11 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactStatic = __webpack_require__(2);
 
-var _textBlock = __webpack_require__(33);
+var _textBlock = __webpack_require__(34);
 
 var _textBlock2 = _interopRequireDefault(_textBlock);
 
-var _menu = __webpack_require__(35);
+var _menu = __webpack_require__(36);
 
 var _menu2 = _interopRequireDefault(_menu);
 
@@ -456,6 +456,12 @@ module.exports = function escape(url) {
 
 /***/ }),
 /* 8 */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMTUwIDI3LjMiPjxzdHlsZT4uc3Qwe2ZpbGw6I2ZmMDA0Nn08L3N0eWxlPjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xNS4yIDBjNy45IDAgMTMgNC40IDEzIDEzLjJ2LjFjMCA5LjctNS42IDEzLjYtMTMuNyAxMy42SDF2LTMuMmgxYzEuNSAwIDIuMi0uMyAyLjItMi4yVjUuNmMwLTEuOS0uNy0yLjItMi4yLTIuMkgxVjBoMTQuMnptLTEuMyAyMy41YzUuMyAwIDctMyA3LTkuM1YxMmMwLTUuNS0xLjUtOC4zLTYuMS04LjNIMTF2MTkuOGgyLjl6TTM2LjggMTcuNmMuMiA0LjIgMi4zIDUuNyA2LjQgNS43IDIuMiAwIDQuMi0uNiA1LjYtMS4ydjIuNGMtMSAxLjMtMy44IDIuOC03LjggMi44LTYuOSAwLTExLjEtMy44LTExLjEtMTAuOCAwLTYuOCA0LjYtMTAuOCAxMC41LTEwLjggNi4yIDAgOS40IDMuNSA5LjQgOC42IDAgMS42LS4zIDIuNC0uNiAzLjJIMzYuOHptMC0yLjhoNi45di0uM2MwLTQtMS4xLTUuNi0zLjItNS42LTIuMy0uMS0zLjUgMS42LTMuNyA1Ljl6TTU4LjQgMTcuNmMuMiA0LjIgMi4zIDUuNyA2LjQgNS43IDIuMiAwIDQuMi0uNiA1LjYtMS4ydjIuNGMtMSAxLjMtMy44IDIuOC03LjggMi44LTYuOSAwLTExLjEtMy44LTExLjEtMTAuOCAwLTYuOCA0LjYtMTAuOCAxMC41LTEwLjggNi4yIDAgOS40IDMuNSA5LjQgOC42IDAgMS42LS4zIDIuNC0uNiAzLjJINTguNHptMC0yLjhoNi45di0uM2MwLTQtMS4xLTUuNi0zLjItNS42LTIuMy0uMS0zLjYgMS42LTMuNyA1Ljl6TTc2LjggMjQuOGMtLjMgMS40LS44IDIuMS0uOCAyLjFoLTN2LTYuNGg0Yy41IDIuNCAyLjIgMy44IDQuOCAzLjggMiAwIDMuMy0uOCAzLjMtMi40IDAtMS4zLS42LTEuNy0xLjctMS45LTEuNS0uNC00LjgtLjQtNy4xLTEuNi0yLjItMS4xLTMuMi0zLTMuMi01LjggMC01LjEgNC40LTYuOCA3LjYtNi44IDIuOCAwIDQuNS45IDUuMyAyLjUuMy0xLjQuNy0yIC43LTJoM3Y1LjloLTMuOGMtLjctMi0yLTMuMi00LjItMy4yLTEuNyAwLTMgLjYtMyAyLjIgMCAxLjEuNSAxLjYgMS42IDEuOSAyIC41IDUuNC41IDcuNSAxLjcgMi4yIDEuMiAzLjEgMyAzLjEgNS42IDAgNC42LTMuMyA2LjktOCA2LjktMy4xIDAtNS0uOS02LjEtMi41ek05Mi4zIDE2LjRjMC02LjggNC43LTEwLjYgMTAuOC0xMC42IDYuMiAwIDEwLjggMy44IDEwLjggMTAuNXYuMWMwIDcuOS01LjMgMTEtMTAuOCAxMS01LjYtLjEtMTAuOC0zLjItMTAuOC0xMXptMTQuNy42di0xLjVjMC00LjYtMS42LTYuNC00LTYuNHMtMy45IDEuOC0zLjkgNi40VjE3YzAgNS44IDEuNyA3LjIgMy45IDcuMiAyLjMgMCA0LTEuNCA0LTcuMnpNMTM3LjEgMjIuMWMwIDEuMi4zIDEuNyAyIDEuN2guM3YzLjFoLTExLjd2LTMuMWguNGMxLjcgMCAyLjItLjIgMi4yLTEuNXYtOC44YzAtMi4zLTEtMy40LTIuOS0zLjQtMi40IDAtNC4xIDItNC4xIDUuNnY2LjdjMCAxLjMuMyAxLjUgMi4yIDEuNWguNFYyN2gtMTEuN3YtMy4xaC41YzEuNSAwIDEuOC0uMyAxLjgtMS44di05LjZjMC0yLjEtLjctMi40LTIuMi0yLjRoLS4xVjYuM2g4cy45IDIuMS45IDQuN3YuM2MuOS0zLjMgMy4zLTUuNSA3LjItNS41IDQuMSAwIDYuNiAyLjQgNi42IDcuNHY4Ljl6TTE0MC44IDIyLjhjMC0yLjUgMi4xLTQuNiA0LjYtNC42IDIuNSAwIDQuNiAyLjEgNC42IDQuNiAwIDIuNS0yLjEgNC41LTQuNiA0LjUtMi41IDAtNC42LTItNC42LTQuNXoiLz48L3N2Zz4="
+
+/***/ }),
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -509,73 +515,73 @@ exports.default = function () {
 };
 
 /***/ }),
-/* 9 */
+/* 10 */
 /***/ (function(module, exports) {
 
 module.exports = "data:application/vnd.ms-fontobject;base64,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"
 
 /***/ }),
-/* 10 */
+/* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/lineto-circular-bold.6ca9638f.eot";
 
 /***/ }),
-/* 11 */
+/* 12 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/lineto-circular-bolditalic.df71ef45.eot";
 
 /***/ }),
-/* 12 */
+/* 13 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/lineto-circular-book.c541f8e1.eot";
 
 /***/ }),
-/* 13 */
+/* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/lineto-circular-bookitalic.08f55550.eot";
 
 /***/ }),
-/* 14 */
+/* 15 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/MaisonNeue-Light.dab2c256.otf";
 
 /***/ }),
-/* 15 */
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/MaisonNeue-LightItalic.8ba70cf2.otf";
 
 /***/ }),
-/* 16 */
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/MaisonNeue-Medium.003e27a2.otf";
 
 /***/ }),
-/* 17 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/MaisonNeue-MediumItalic.ce9483a8.otf";
 
 /***/ }),
-/* 18 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/MaisonNeue-Bold.6023c680.otf";
 
 /***/ }),
-/* 19 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/MaisonNeue-BoldItalic.5ebb3d1d.otf";
 
 /***/ }),
-/* 20 */
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -589,11 +595,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(21);
+var _reactDom = __webpack_require__(22);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _App = __webpack_require__(22);
+var _App = __webpack_require__(23);
 
 var _App2 = _interopRequireDefault(_App);
 
@@ -618,13 +624,13 @@ if (typeof document !== 'undefined') {
 }
 
 /***/ }),
-/* 21 */
+/* 22 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-dom");
 
 /***/ }),
-/* 22 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -640,9 +646,9 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactStatic = __webpack_require__(2);
 
-var _reactHotLoader = __webpack_require__(23);
+var _reactHotLoader = __webpack_require__(24);
 
-var _reactStaticRoutes = __webpack_require__(24);
+var _reactStaticRoutes = __webpack_require__(25);
 
 var _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);
 
@@ -662,13 +668,13 @@ exports.default = (0, _reactHotLoader.hot)(module)(App);
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)(module)))
 
 /***/ }),
-/* 23 */
+/* 24 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-hot-loader");
 
 /***/ }),
-/* 24 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -678,15 +684,15 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _path2 = __webpack_require__(25);
+var _path2 = __webpack_require__(26);
 
 var _path3 = _interopRequireDefault(_path2);
 
-var _importCss2 = __webpack_require__(26);
+var _importCss2 = __webpack_require__(27);
 
 var _importCss3 = _interopRequireDefault(_importCss2);
 
-var _universalImport2 = __webpack_require__(27);
+var _universalImport2 = __webpack_require__(28);
 
 var _universalImport3 = _interopRequireDefault(_universalImport2);
 
@@ -698,9 +704,9 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(28);
+var _reactRouterDom = __webpack_require__(29);
 
-var _reactUniversalComponent = __webpack_require__(29);
+var _reactUniversalComponent = __webpack_require__(30);
 
 var _reactUniversalComponent2 = _interopRequireDefault(_reactUniversalComponent);
 
@@ -754,7 +760,7 @@ var t_1 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
   id: '../src/containers/404',
   file: '/opt/atlassian/pipelines/agent/build/dist/react-static-routes.js',
   load: function load() {
-    return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 8)), (0, _importCss3.default)('src/containers/404', {
+    return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 9)), (0, _importCss3.default)('src/containers/404', {
       disableWarnings: true
     })]).then(function (proms) {
       return proms[0];
@@ -764,7 +770,7 @@ var t_1 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
     return _path3.default.join(__dirname, '../src/containers/404');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(8);
+    return /*require.resolve*/(9);
   },
   chunkName: function chunkName() {
     return 'src/containers/404';
@@ -851,31 +857,31 @@ exports.default = Routes;
 /* WEBPACK VAR INJECTION */}.call(exports, "/"))
 
 /***/ }),
-/* 25 */
+/* 26 */
 /***/ (function(module, exports) {
 
 module.exports = require("path");
 
 /***/ }),
-/* 26 */
+/* 27 */
 /***/ (function(module, exports) {
 
 module.exports = require("babel-plugin-universal-import/importCss");
 
 /***/ }),
-/* 27 */
+/* 28 */
 /***/ (function(module, exports) {
 
 module.exports = require("babel-plugin-universal-import/universalImport");
 
 /***/ }),
-/* 28 */
+/* 29 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-router-dom");
 
 /***/ }),
-/* 29 */
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -890,7 +896,7 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _requireUniversalModule = __webpack_require__(30);
+var _requireUniversalModule = __webpack_require__(31);
 
 Object.defineProperty(exports, 'CHUNK_NAMES', {
   enumerable: true,
@@ -905,7 +911,7 @@ Object.defineProperty(exports, 'MODULE_IDS', {
   }
 });
 
-var _reportChunks = __webpack_require__(31);
+var _reportChunks = __webpack_require__(32);
 
 Object.defineProperty(exports, 'ReportChunks', {
   enumerable: true,
@@ -922,7 +928,7 @@ var _propTypes = __webpack_require__(5);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _hoistNonReactStatics = __webpack_require__(32);
+var _hoistNonReactStatics = __webpack_require__(33);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
@@ -1222,7 +1228,7 @@ exports.default = universal;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)(module)))
 
 /***/ }),
-/* 30 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1404,7 +1410,7 @@ var getConfig = function getConfig(isDynamic, universalConfig, options, props) {
 };
 
 /***/ }),
-/* 31 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1467,13 +1473,13 @@ ReportChunks.childContextTypes = {
 exports.default = ReportChunks;
 
 /***/ }),
-/* 32 */
+/* 33 */
 /***/ (function(module, exports) {
 
 module.exports = require("hoist-non-react-statics");
 
 /***/ }),
-/* 33 */
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1488,7 +1494,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__(34);
+__webpack_require__(35);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1507,7 +1513,7 @@ function TextBlock(props) {
 }
 
 /***/ }),
-/* 34 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(false);
@@ -1521,7 +1527,7 @@ exports.push([module.i, "/*\n  @include media(\"md-up\") {\n    [styles for tabl
 
 
 /***/ }),
-/* 35 */
+/* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1537,7 +1543,9 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__(36);
+__webpack_require__(37);
+
+__webpack_require__(8);
 
 var _reactStatic = __webpack_require__(2);
 
@@ -1709,7 +1717,7 @@ var Menu = function (_React$Component4) {
 exports.default = (0, _reactStatic.withRouteData)(Menu);
 
 /***/ }),
-/* 36 */
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var escape = __webpack_require__(7);
@@ -1718,16 +1726,10 @@ exports = module.exports = __webpack_require__(1)(false);
 
 
 // module
-exports.push([module.i, "/*\n  @include media(\"md-up\") {\n    [styles for tablets and larger]\n  }\n  @include media(\"sm-down\") {\n    [styles for portrait tablets and smaller]\n  }\n*/\n.handbook {\n  width: 100%; }\n  @media only screen and (min-width: 901px) {\n    .handbook {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-orient: horizontal;\n      -webkit-box-direction: normal;\n          -ms-flex-direction: row;\n              flex-direction: row;\n      -ms-flex-pack: distribute;\n          justify-content: space-around; } }\n  .handbook .handbook__sidebar {\n    width: 375px;\n    min-height: 100vh;\n    overflow-y: scroll;\n    padding: 45px;\n    background-color: #edeee9;\n    color: #000; }\n    @media only screen and (min-width: 901px) {\n      .handbook .handbook__sidebar {\n        -webkit-box-flex: 0;\n            -ms-flex-positive: 0;\n                flex-grow: 0;\n        -ms-flex-negative: 0;\n            flex-shrink: 0; } }\n  .handbook .handbook__main {\n    margin: 0 auto;\n    padding: 45px;\n    -webkit-box-align: start;\n        -ms-flex-align: start;\n            align-items: flex-start;\n    background-color: white; }\n    @media only screen and (min-width: 901px) {\n      .handbook .handbook__main {\n        -webkit-box-flex: 1;\n            -ms-flex: 1 auto;\n                flex: 1 auto; } }\n    .handbook .handbook__main .handbook__main__content {\n      width: 100%;\n      max-width: 770px;\n      margin: 0 auto; }\n      .handbook .handbook__main .handbook__main__content img {\n        max-width: 100%;\n        height: auto; }\n\n.off-canvas-menu .off-canvas-menu__trigger {\n  display: none; }\n\n.off-canvas-menu .off-canvas-menu__close-trigger {\n  display: none; }\n\n@media only screen and (max-width: 900px) {\n  .off-canvas-menu {\n    -webkit-transform: translate3d(0, 0, 0);\n            transform: translate3d(0, 0, 0);\n    -webkit-transition: -webkit-transform 500ms ease;\n    transition: -webkit-transform 500ms ease;\n    transition: transform 500ms ease;\n    transition: transform 500ms ease, -webkit-transform 500ms ease; }\n    .off-canvas-menu .off-canvas-menu__menu {\n      position: absolute;\n      left: -375px;\n      top: 0;\n      height: 100%; }\n    .off-canvas-menu .off-canvas-menu__content {\n      -webkit-transform: translate3d(0, 0, 0);\n              transform: translate3d(0, 0, 0);\n      -webkit-transition: -webkit-transform 500ms ease;\n      transition: -webkit-transform 500ms ease;\n      transition: transform 500ms ease;\n      transition: transform 500ms ease, -webkit-transform 500ms ease; }\n    .off-canvas-menu.off-canvas-menu--open {\n      left: 0;\n      -webkit-transform: translate3d(375px, 0, 0);\n              transform: translate3d(375px, 0, 0); }\n    .off-canvas-menu .off-canvas-menu__trigger {\n      display: inline-block;\n      border-radius: 1px;\n      margin-right: 1em;\n      text-transform: uppercase;\n      text-decoration: none; }\n    .off-canvas-menu .off-canvas-menu__close-trigger {\n      display: block;\n      position: absolute;\n      right: 1rem;\n      top: 1rem;\n      font-size: 2rem; } }\n\n.logo .logo__image {\n  width: 150px;\n  padding-top: 28px;\n  height: 0;\n  overflow: hidden;\n  display: block;\n  background-image: url(" + escape(__webpack_require__(37)) + ");\n  background-repeat: no-repeat; }\n\n.sidebar .sidebar__logo, .sidebar .sidebar__search {\n  margin-bottom: 3.5rem; }\n\n.sidebar .sidebar__menus {\n  margin-bottom: 1rem; }\n\narticle, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {\n  display: block; }\n\n.nav-block .nav-block___menu {\n  font-size: 1rem;\n  line-height: 1.3125; }\n\n.menu {\n  padding: 0;\n  margin: .625em 0 0; }\n\n.menu .menu__item {\n  list-style: none;\n  margin-bottom: .625em; }\n\n.menu .menu {\n  margin-left: 1.5em;\n  text-transform: none; }\n\n.menu {\n  padding: 0;\n  margin: .625em 0 0; }\n\n.nav-block___menu li {\n  font-family: \"Maison-Neue-Bold\", Helvetica, Arial; }\n\n.menu .menu__link {\n  font-family: \"Maison-Neue-Light\", Helvetica, Arial;\n  color: #000;\n  text-decoration: none; }\n\na, a:visited, html {\n  color: #000; }\n\na {\n  background-color: transparent;\n  -webkit-text-decoration-skip: objects; }\n\n.menu__item--active {\n  font-weight: bold; }\n", ""]);
+exports.push([module.i, "/*\n  @include media(\"md-up\") {\n    [styles for tablets and larger]\n  }\n  @include media(\"sm-down\") {\n    [styles for portrait tablets and smaller]\n  }\n*/\n.handbook {\n  width: 100%; }\n  @media only screen and (min-width: 901px) {\n    .handbook {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-orient: horizontal;\n      -webkit-box-direction: normal;\n          -ms-flex-direction: row;\n              flex-direction: row;\n      -ms-flex-pack: distribute;\n          justify-content: space-around; } }\n  .handbook .handbook__sidebar {\n    width: 375px;\n    min-height: 100vh;\n    overflow-y: scroll;\n    padding: 45px;\n    background-color: #edeee9;\n    color: #000; }\n    @media only screen and (min-width: 901px) {\n      .handbook .handbook__sidebar {\n        -webkit-box-flex: 0;\n            -ms-flex-positive: 0;\n                flex-grow: 0;\n        -ms-flex-negative: 0;\n            flex-shrink: 0; } }\n  .handbook .handbook__main {\n    margin: 0 auto;\n    padding: 45px;\n    -webkit-box-align: start;\n        -ms-flex-align: start;\n            align-items: flex-start;\n    background-color: white; }\n    @media only screen and (min-width: 901px) {\n      .handbook .handbook__main {\n        -webkit-box-flex: 1;\n            -ms-flex: 1 auto;\n                flex: 1 auto; } }\n    .handbook .handbook__main .handbook__main__content {\n      width: 100%;\n      max-width: 770px;\n      margin: 0 auto; }\n      .handbook .handbook__main .handbook__main__content img {\n        max-width: 100%;\n        height: auto; }\n\n.off-canvas-menu .off-canvas-menu__trigger {\n  display: none; }\n\n.off-canvas-menu .off-canvas-menu__close-trigger {\n  display: none; }\n\n@media only screen and (max-width: 900px) {\n  .off-canvas-menu {\n    -webkit-transform: translate3d(0, 0, 0);\n            transform: translate3d(0, 0, 0);\n    -webkit-transition: -webkit-transform 500ms ease;\n    transition: -webkit-transform 500ms ease;\n    transition: transform 500ms ease;\n    transition: transform 500ms ease, -webkit-transform 500ms ease; }\n    .off-canvas-menu .off-canvas-menu__menu {\n      position: absolute;\n      left: -375px;\n      top: 0;\n      height: 100%; }\n    .off-canvas-menu .off-canvas-menu__content {\n      -webkit-transform: translate3d(0, 0, 0);\n              transform: translate3d(0, 0, 0);\n      -webkit-transition: -webkit-transform 500ms ease;\n      transition: -webkit-transform 500ms ease;\n      transition: transform 500ms ease;\n      transition: transform 500ms ease, -webkit-transform 500ms ease; }\n    .off-canvas-menu.off-canvas-menu--open {\n      left: 0;\n      -webkit-transform: translate3d(375px, 0, 0);\n              transform: translate3d(375px, 0, 0); }\n    .off-canvas-menu .off-canvas-menu__trigger {\n      display: inline-block;\n      border-radius: 1px;\n      margin-right: 1em;\n      text-transform: uppercase;\n      text-decoration: none; }\n    .off-canvas-menu .off-canvas-menu__close-trigger {\n      display: block;\n      position: absolute;\n      right: 1rem;\n      top: 1rem;\n      font-size: 2rem; } }\n\n.logo .logo__image {\n  display: none;\n  width: 150px;\n  padding-top: 28px;\n  height: 0;\n  overflow: hidden;\n  background-image: url(" + escape(__webpack_require__(8)) + ");\n  background-repeat: no-repeat; }\n\n.sidebar .sidebar__logo, .sidebar .sidebar__search {\n  margin-bottom: 3.5rem; }\n\n.sidebar .sidebar__menus {\n  margin-bottom: 1rem; }\n\narticle, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {\n  display: block; }\n\n.nav-block .nav-block___menu {\n  font-size: 1rem;\n  line-height: 1.3125; }\n\n.menu {\n  padding: 0;\n  margin: .625em 0 0; }\n\n.menu .menu__item {\n  list-style: none;\n  margin-bottom: .625em; }\n\n.menu .menu {\n  margin-left: 1.5em;\n  text-transform: none; }\n\n.menu {\n  padding: 0;\n  margin: .625em 0 0; }\n\n.nav-block___menu li {\n  font-family: \"Maison-Neue-Bold\", Helvetica, Arial; }\n\n.menu .menu__link {\n  font-family: \"Maison-Neue-Light\", Helvetica, Arial;\n  color: #000;\n  text-decoration: none; }\n\na, a:visited, html {\n  color: #000; }\n\na {\n  background-color: transparent;\n  -webkit-text-decoration-skip: objects; }\n\n.menu__item--active {\n  font-weight: bold; }\n", ""]);
 
 // exports
 
-
-/***/ }),
-/* 37 */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMTUwIDI3LjMiPjxzdHlsZT4uc3Qwe2ZpbGw6I2ZmMDA0Nn08L3N0eWxlPjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xNS4yIDBjNy45IDAgMTMgNC40IDEzIDEzLjJ2LjFjMCA5LjctNS42IDEzLjYtMTMuNyAxMy42SDF2LTMuMmgxYzEuNSAwIDIuMi0uMyAyLjItMi4yVjUuNmMwLTEuOS0uNy0yLjItMi4yLTIuMkgxVjBoMTQuMnptLTEuMyAyMy41YzUuMyAwIDctMyA3LTkuM1YxMmMwLTUuNS0xLjUtOC4zLTYuMS04LjNIMTF2MTkuOGgyLjl6TTM2LjggMTcuNmMuMiA0LjIgMi4zIDUuNyA2LjQgNS43IDIuMiAwIDQuMi0uNiA1LjYtMS4ydjIuNGMtMSAxLjMtMy44IDIuOC03LjggMi44LTYuOSAwLTExLjEtMy44LTExLjEtMTAuOCAwLTYuOCA0LjYtMTAuOCAxMC41LTEwLjggNi4yIDAgOS40IDMuNSA5LjQgOC42IDAgMS42LS4zIDIuNC0uNiAzLjJIMzYuOHptMC0yLjhoNi45di0uM2MwLTQtMS4xLTUuNi0zLjItNS42LTIuMy0uMS0zLjUgMS42LTMuNyA1Ljl6TTU4LjQgMTcuNmMuMiA0LjIgMi4zIDUuNyA2LjQgNS43IDIuMiAwIDQuMi0uNiA1LjYtMS4ydjIuNGMtMSAxLjMtMy44IDIuOC03LjggMi44LTYuOSAwLTExLjEtMy44LTExLjEtMTAuOCAwLTYuOCA0LjYtMTAuOCAxMC41LTEwLjggNi4yIDAgOS40IDMuNSA5LjQgOC42IDAgMS42LS4zIDIuNC0uNiAzLjJINTguNHptMC0yLjhoNi45di0uM2MwLTQtMS4xLTUuNi0zLjItNS42LTIuMy0uMS0zLjYgMS42LTMuNyA1Ljl6TTc2LjggMjQuOGMtLjMgMS40LS44IDIuMS0uOCAyLjFoLTN2LTYuNGg0Yy41IDIuNCAyLjIgMy44IDQuOCAzLjggMiAwIDMuMy0uOCAzLjMtMi40IDAtMS4zLS42LTEuNy0xLjctMS45LTEuNS0uNC00LjgtLjQtNy4xLTEuNi0yLjItMS4xLTMuMi0zLTMuMi01LjggMC01LjEgNC40LTYuOCA3LjYtNi44IDIuOCAwIDQuNS45IDUuMyAyLjUuMy0xLjQuNy0yIC43LTJoM3Y1LjloLTMuOGMtLjctMi0yLTMuMi00LjItMy4yLTEuNyAwLTMgLjYtMyAyLjIgMCAxLjEuNSAxLjYgMS42IDEuOSAyIC41IDUuNC41IDcuNSAxLjcgMi4yIDEuMiAzLjEgMyAzLjEgNS42IDAgNC42LTMuMyA2LjktOCA2LjktMy4xIDAtNS0uOS02LjEtMi41ek05Mi4zIDE2LjRjMC02LjggNC43LTEwLjYgMTAuOC0xMC42IDYuMiAwIDEwLjggMy44IDEwLjggMTAuNXYuMWMwIDcuOS01LjMgMTEtMTAuOCAxMS01LjYtLjEtMTAuOC0zLjItMTAuOC0xMXptMTQuNy42di0xLjVjMC00LjYtMS42LTYuNC00LTYuNHMtMy45IDEuOC0zLjkgNi40VjE3YzAgNS44IDEuNyA3LjIgMy45IDcuMiAyLjMgMCA0LTEuNCA0LTcuMnpNMTM3LjEgMjIuMWMwIDEuMi4zIDEuNyAyIDEuN2guM3YzLjFoLTExLjd2LTMuMWguNGMxLjcgMCAyLjItLjIgMi4yLTEuNXYtOC44YzAtMi4zLTEtMy40LTIuOS0zLjQtMi40IDAtNC4xIDItNC4xIDUuNnY2LjdjMCAxLjMuMyAxLjUgMi4yIDEuNWguNFYyN2gtMTEuN3YtMy4xaC41YzEuNSAwIDEuOC0uMyAxLjgtMS44di05LjZjMC0yLjEtLjctMi40LTIuMi0yLjRoLS4xVjYuM2g4cy45IDIuMS45IDQuN3YuM2MuOS0zLjMgMy4zLTUuNSA3LjItNS41IDQuMSAwIDYuNiAyLjQgNi42IDcuNHY4Ljl6TTE0MC44IDIyLjhjMC0yLjUgMi4xLTQuNiA0LjYtNC42IDIuNSAwIDQuNiAyLjEgNC42IDQuNiAwIDIuNS0yLjEgNC41LTQuNiA0LjUtMi41IDAtNC42LTItNC42LTQuNXoiLz48L3N2Zz4="
 
 /***/ }),
 /* 38 */
@@ -1898,7 +1900,7 @@ exports = module.exports = __webpack_require__(1)(false);
 
 
 // module
-exports.push([module.i, "@charset \"UTF-8\";\n/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */\n/* Document\n   ========================================================================== */\n/**\n * 1. Correct the line height in all browsers.\n * 2. Prevent adjustments of font size after orientation changes in\n *    IE on Windows Phone and in iOS.\n */\nhtml {\n  line-height: 1.15;\n  /* 1 */\n  -ms-text-size-adjust: 100%;\n  /* 2 */\n  -webkit-text-size-adjust: 100%;\n  /* 2 */ }\n\n/* Sections\n   ========================================================================== */\n/**\n * Remove the margin in all browsers (opinionated).\n */\nbody {\n  margin: 0; }\n\n/**\n * Add the correct display in IE 9-.\n */\narticle,\naside,\nfooter,\nheader,\nnav,\nsection {\n  display: block; }\n\n/**\n * Correct the font size and margin on `h1` elements within `section` and\n * `article` contexts in Chrome, Firefox, and Safari.\n */\nh1 {\n  font-size: 2em;\n  margin: 0.67em 0; }\n\n/* Grouping content\n   ========================================================================== */\n/**\n * Add the correct display in IE 9-.\n * 1. Add the correct display in IE.\n */\nfigcaption,\nfigure,\nmain {\n  /* 1 */\n  display: block; }\n\n/**\n * Add the correct margin in IE 8.\n */\nfigure {\n  margin: 1em 40px; }\n\n/**\n * 1. Add the correct box sizing in Firefox.\n * 2. Show the overflow in Edge and IE.\n */\nhr {\n  -webkit-box-sizing: content-box;\n          box-sizing: content-box;\n  /* 1 */\n  height: 0;\n  /* 1 */\n  overflow: visible;\n  /* 2 */ }\n\n/**\n * 1. Correct the inheritance and scaling of font size in all browsers.\n * 2. Correct the odd `em` font sizing in all browsers.\n */\npre {\n  font-family: monospace, monospace;\n  /* 1 */\n  font-size: 1em;\n  /* 2 */ }\n\n/* Text-level semantics\n   ========================================================================== */\n/**\n * 1. Remove the gray background on active links in IE 10.\n * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.\n */\na {\n  background-color: transparent;\n  /* 1 */\n  -webkit-text-decoration-skip: objects;\n  /* 2 */ }\n\n/**\n * 1. Remove the bottom border in Chrome 57- and Firefox 39-.\n * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.\n */\nabbr[title] {\n  border-bottom: none;\n  /* 1 */\n  text-decoration: underline;\n  /* 2 */\n  -webkit-text-decoration: underline dotted;\n          text-decoration: underline dotted;\n  /* 2 */ }\n\n/**\n * Prevent the duplicate application of `bolder` by the next rule in Safari 6.\n */\nb,\nstrong {\n  font-weight: inherit; }\n\n/**\n * Add the correct font weight in Chrome, Edge, and Safari.\n */\nb,\nstrong {\n  font-weight: bolder; }\n\n/**\n * 1. Correct the inheritance and scaling of font size in all browsers.\n * 2. Correct the odd `em` font sizing in all browsers.\n */\ncode,\nkbd,\nsamp {\n  font-family: monospace, monospace;\n  /* 1 */\n  font-size: 1em;\n  /* 2 */ }\n\n/**\n * Add the correct font style in Android 4.3-.\n */\ndfn {\n  font-style: italic; }\n\n/**\n * Add the correct background and color in IE 9-.\n */\nmark {\n  background-color: #ff0;\n  color: #000; }\n\n/**\n * Add the correct font size in all browsers.\n */\nsmall {\n  font-size: 80%; }\n\n/**\n * Prevent `sub` and `sup` elements from affecting the line height in\n * all browsers.\n */\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline; }\n\nsub {\n  bottom: -0.25em; }\n\nsup {\n  top: -0.5em; }\n\n/* Embedded content\n   ========================================================================== */\n/**\n * Add the correct display in IE 9-.\n */\naudio,\nvideo {\n  display: inline-block; }\n\n/**\n * Remove the border on images inside links in IE 10-.\n */\nimg {\n  border-style: none; }\n\n/**\n * Hide the overflow in IE.\n */\nsvg:not(:root) {\n  overflow: hidden; }\n\n/* Forms\n   ========================================================================== */\n/**\n * 1. Change the font styles in all browsers (opinionated).\n * 2. Remove the margin in Firefox and Safari.\n */\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: sans-serif;\n  /* 1 */\n  font-size: 100%;\n  /* 1 */\n  line-height: 1.15;\n  /* 1 */\n  margin: 0;\n  /* 2 */ }\n\n/**\n * Show the overflow in IE.\n * 1. Show the overflow in Edge.\n */\nbutton,\ninput {\n  /* 1 */\n  overflow: visible; }\n\n/**\n * Remove the inheritance of text transform in Edge, Firefox, and IE.\n * 1. Remove the inheritance of text transform in Firefox.\n */\nbutton,\nselect {\n  /* 1 */\n  text-transform: none; }\n\n/**\n * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`\n *    controls in Android 4.\n * 2. Correct the inability to style clickable types in iOS and Safari.\n */\nbutton,\nhtml [type=\"button\"],\n[type=\"reset\"],\n[type=\"submit\"] {\n  -webkit-appearance: button;\n  /* 2 */ }\n\n/**\n * Remove the inner border and padding in Firefox.\n */\nbutton::-moz-focus-inner,\n[type=\"button\"]::-moz-focus-inner,\n[type=\"reset\"]::-moz-focus-inner,\n[type=\"submit\"]::-moz-focus-inner {\n  border-style: none;\n  padding: 0; }\n\n/**\n * Restore the focus styles unset by the previous rule.\n */\nbutton:-moz-focusring,\n[type=\"button\"]:-moz-focusring,\n[type=\"reset\"]:-moz-focusring,\n[type=\"submit\"]:-moz-focusring {\n  outline: 1px dotted ButtonText; }\n\n/**\n * Correct the padding in Firefox.\n */\nfieldset {\n  padding: 0.35em 0.75em 0.625em; }\n\n/**\n * 1. Correct the text wrapping in Edge and IE.\n * 2. Correct the color inheritance from `fieldset` elements in IE.\n * 3. Remove the padding so developers are not caught out when they zero out\n *    `fieldset` elements in all browsers.\n */\nlegend {\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  /* 1 */\n  color: inherit;\n  /* 2 */\n  display: table;\n  /* 1 */\n  max-width: 100%;\n  /* 1 */\n  padding: 0;\n  /* 3 */\n  white-space: normal;\n  /* 1 */ }\n\n/**\n * 1. Add the correct display in IE 9-.\n * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.\n */\nprogress {\n  display: inline-block;\n  /* 1 */\n  vertical-align: baseline;\n  /* 2 */ }\n\n/**\n * Remove the default vertical scrollbar in IE.\n */\ntextarea {\n  overflow: auto; }\n\n/**\n * 1. Add the correct box sizing in IE 10-.\n * 2. Remove the padding in IE 10-.\n */\n[type=\"checkbox\"],\n[type=\"radio\"] {\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  /* 1 */\n  padding: 0;\n  /* 2 */ }\n\n/**\n * Correct the cursor style of increment and decrement buttons in Chrome.\n */\n[type=\"number\"]::-webkit-inner-spin-button,\n[type=\"number\"]::-webkit-outer-spin-button {\n  height: auto; }\n\n/**\n * 1. Correct the odd appearance in Chrome and Safari.\n * 2. Correct the outline style in Safari.\n */\n[type=\"search\"] {\n  -webkit-appearance: textfield;\n  /* 1 */\n  outline-offset: -2px;\n  /* 2 */ }\n\n/**\n * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.\n */\n[type=\"search\"]::-webkit-search-cancel-button,\n[type=\"search\"]::-webkit-search-decoration {\n  -webkit-appearance: none; }\n\n/**\n * 1. Correct the inability to style clickable types in iOS and Safari.\n * 2. Change font properties to `inherit` in Safari.\n */\n::-webkit-file-upload-button {\n  -webkit-appearance: button;\n  /* 1 */\n  font: inherit;\n  /* 2 */ }\n\n/* Interactive\n   ========================================================================== */\n/*\n * Add the correct display in IE 9-.\n * 1. Add the correct display in Edge, IE, and Firefox.\n */\ndetails,\nmenu {\n  display: block; }\n\n/*\n * Add the correct display in all browsers.\n */\nsummary {\n  display: list-item; }\n\n/* Scripting\n   ========================================================================== */\n/**\n * Add the correct display in IE 9-.\n */\ncanvas {\n  display: inline-block; }\n\n/**\n * Add the correct display in IE.\n */\ntemplate {\n  display: none; }\n\n/* Hidden\n   ========================================================================== */\n/**\n * Add the correct display in IE 10-.\n */\n[hidden] {\n  display: none; }\n\n/* Custom\n   ========================================================================== */\nhtml {\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; }\n\n*, *:before, *:after {\n  -webkit-box-sizing: inherit;\n          box-sizing: inherit; }\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\np {\n  margin-top: 0; }\n\nul,\nol {\n  margin: 0;\n  padding: 0; }\n\ndl {\n  margin: 0; }\n\ndt, dd {\n  display: inline-block;\n  margin: 0;\n  padding: 0; }\n\n/*\n  @include media(\"md-up\") {\n    [styles for tablets and larger]\n  }\n  @include media(\"sm-down\") {\n    [styles for portrait tablets and smaller]\n  }\n*/\nbody {\n  color: #000000;\n  font-family: \"Maison-Neue-Light\", Helvetica, Arial;\n  font-size: 15px;\n  line-height: 1.5;\n  text-align: left;\n  background-color: #edeee9;\n  margin: 0;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale; }\n  @media only screen and (min-width: 769px) {\n    body {\n      font-size: 16px; } }\n\nh1,\n.h1 {\n  font-family: \"CircularStd-Bold\", Helvetica, Arial;\n  font-weight: normal;\n  color: #000000;\n  font-size: 38px;\n  line-height: 1.3; }\n\nh2,\n.h2 {\n  font-family: \"CircularStd-Bold\", Helvetica, Arial;\n  font-weight: normal;\n  color: #000000;\n  font-size: 30px;\n  line-height: 1.3;\n  text-align: left; }\n\nh3,\n.h3 {\n  font-family: \"CircularStd-Bold\", Helvetica, Arial;\n  font-weight: normal;\n  color: #000000;\n  font-size: 28px;\n  line-height: 1.3;\n  margin-bottom: 20px;\n  text-align: left; }\n\nh4,\n.h4 {\n  font-family: \"CircularStd-Bold\", Helvetica, Arial;\n  font-weight: normal;\n  color: #000000;\n  font-size: 27px;\n  line-height: 1.3;\n  margin-bottom: 20px;\n  text-align: left; }\n  @media only screen and (min-width: 769px) {\n    h4,\n    .h4 {\n      font-size: 24px; } }\n\nh5,\n.h5 {\n  font-family: \"CircularStd-Bold\", Helvetica, Arial;\n  font-weight: normal;\n  color: #000000;\n  font-size: 25px;\n  line-height: 1.3;\n  margin-bottom: 20px;\n  text-align: left; }\n  @media only screen and (min-width: 769px) {\n    h5,\n    .h5 {\n      font-size: 20px; } }\n\nh6,\n.h6 {\n  font-family: \"CircularStd-Bold\", Helvetica, Arial;\n  font-weight: normal;\n  color: #000000;\n  font-size: 22px;\n  line-height: 1.3;\n  margin-bottom: 10px;\n  text-align: left; }\n  @media only screen and (min-width: 769px) {\n    h6,\n    .h6 {\n      font-size: 18px; } }\n\np strong,\nul strong,\nol strong,\nlabel strong,\np b,\nul b,\nol b,\nlabel b {\n  font-family: \"Maison-Neue-Bold\", Helvetica, Arial;\n  font-weight: normal; }\n\n.noscroll {\n  overflow: hidden; }\n\n.container {\n  margin-left: auto;\n  margin-right: auto;\n  max-width: 600px;\n  width: calc(100% - (20px * 2)); }\n\n@media only screen and (min-width: 501px) {\n  .xs-visible {\n    display: none; } }\n\n.text-center {\n  text-align: center; }\n\n.list--bullet {\n  list-style: none;\n  margin-bottom: 40px; }\n  .list--bullet li {\n    position: relative;\n    padding-left: 35px; }\n    .list--bullet li + li {\n      margin-top: 10px; }\n    @media only screen and (min-width: 501px) {\n      .list--bullet li {\n        padding-left: 30px; } }\n    .list--bullet li::before {\n      content: '\\2022';\n      font-size: 40px;\n      position: absolute;\n      line-height: 15px;\n      left: 0;\n      top: 7px; }\n      @media only screen and (min-width: 501px) {\n        .list--bullet li::before {\n          font-size: 30px;\n          line-height: 16px;\n          top: 5px; } }\n\n@font-face {\n  font-family: 'icomoon';\n  src: url(" + escape(__webpack_require__(9)) + ");\n  src: url(" + escape(__webpack_require__(9)) + "#iefix) format(\"embedded-opentype\"), url(" + escape(__webpack_require__(43)) + ") format(\"woff2\"), url(" + escape(__webpack_require__(44)) + ") format(\"truetype\"), url(" + escape(__webpack_require__(45)) + ") format(\"woff\"), url(" + escape(__webpack_require__(46)) + "#icomoon) format(\"svg\");\n  font-weight: normal;\n  font-style: normal; }\n\n[class^=\"icon-\"], [class*=\" icon-\"] {\n  /* use !important to prevent issues with browser extensions that change fonts */\n  font-family: 'icomoon' !important;\n  speak: none;\n  font-style: normal;\n  font-weight: normal;\n  font-variant: normal;\n  text-transform: none;\n  line-height: 1;\n  /* Better Font Rendering =========== */\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale; }\n\n.icon-close:before {\n  content: \"\\E900\"; }\n\n.icon-breadcrumb-arrow:before {\n  content: \">\"; }\n\n.icon-bitbucket:before {\n  content: \"\\E901\"; }\n\n.icon-list:before {\n  content: \"\\E905\"; }\n\n.icon-github:before {\n  content: \"\\E902\"; }\n\n.icon-arrow-left:before {\n  content: \"\\E903\"; }\n\n.icon-arrow-right:before {\n  content: \"\\E904\"; }\n\n@font-face {\n  font-family: \"Circular-Bold-S\";\n  src: url(" + escape(__webpack_require__(10)) + ");\n  src: url(" + escape(__webpack_require__(10)) + "?#iefix) format(\"embedded-opentype\"), url(" + escape(__webpack_require__(47)) + ") format(\"woff2\"), url(" + escape(__webpack_require__(48)) + ") format(\"woff\");\n  font-weight: normal;\n  font-style: normal; }\n\n@font-face {\n  font-family: \"Circular-Bold-Italic\";\n  src: url(" + escape(__webpack_require__(11)) + ");\n  src: url(" + escape(__webpack_require__(11)) + "?#iefix) format(\"embedded-opentype\"), url(" + escape(__webpack_require__(49)) + ") format(\"woff2\"), url(" + escape(__webpack_require__(50)) + ") format(\"woff\");\n  font-weight: normal;\n  font-style: normal; }\n\n@font-face {\n  font-family: \"Circular-Book\";\n  src: url(" + escape(__webpack_require__(12)) + ");\n  src: url(" + escape(__webpack_require__(12)) + "?#iefix) format(\"embedded-opentype\"), url(" + escape(__webpack_require__(51)) + ") format(\"woff2\"), url(" + escape(__webpack_require__(52)) + ") format(\"woff\");\n  font-weight: normal;\n  font-style: normal; }\n\n@font-face {\n  font-family: \"Circular-Book-Italic\";\n  src: url(" + escape(__webpack_require__(13)) + ");\n  src: url(" + escape(__webpack_require__(13)) + "?#iefix) format(\"embedded-opentype\"), url(" + escape(__webpack_require__(53)) + ") format(\"woff2\"), url(" + escape(__webpack_require__(54)) + ") format(\"woff\");\n  font-weight: normal;\n  font-style: normal; }\n\n@font-face {\n  font-family: \"Maison-Neue-Light\";\n  src: url(" + escape(__webpack_require__(14)) + ");\n  src: url(" + escape(__webpack_require__(14)) + "?#iefix) format(\"embedded-opentype\"), url(" + escape(__webpack_require__(55)) + ") format(\"woff2\"), url(" + escape(__webpack_require__(56)) + ") format(\"woff\");\n  font-weight: normal;\n  font-style: normal; }\n\n@font-face {\n  font-family: \"Maison-Neue-Light-Italic\";\n  src: url(" + escape(__webpack_require__(15)) + ");\n  src: url(" + escape(__webpack_require__(15)) + "?#iefix) format(\"embedded-opentype\"), url(" + escape(__webpack_require__(57)) + ") format(\"woff2\"), url(" + escape(__webpack_require__(58)) + ") format(\"woff\");\n  font-weight: normal;\n  font-style: normal; }\n\n@font-face {\n  font-family: \"Maison-Neue-Medium\";\n  src: url(" + escape(__webpack_require__(16)) + ");\n  src: url(" + escape(__webpack_require__(16)) + "?#iefix) format(\"embedded-opentype\"), url(" + escape(__webpack_require__(59)) + ") format(\"woff2\"), url(" + escape(__webpack_require__(60)) + ") format(\"woff\");\n  font-weight: normal;\n  font-style: normal; }\n\n@font-face {\n  font-family: \"Maison-Neue-Mediumitalic\";\n  src: url(" + escape(__webpack_require__(17)) + ");\n  src: url(" + escape(__webpack_require__(17)) + "?#iefix) format(\"embedded-opentype\"), url(" + escape(__webpack_require__(61)) + ") format(\"woff2\"), url(" + escape(__webpack_require__(62)) + ") format(\"woff\");\n  font-weight: normal;\n  font-style: normal; }\n\n@font-face {\n  font-family: \"Maison-Neue-Bold\";\n  src: url(" + escape(__webpack_require__(18)) + ");\n  src: url(" + escape(__webpack_require__(18)) + "?#iefix) format(\"embedded-opentype\"), url(" + escape(__webpack_require__(63)) + ") format(\"woff2\"), url(" + escape(__webpack_require__(64)) + ") format(\"woff\");\n  font-weight: normal;\n  font-style: normal; }\n\n@font-face {\n  font-family: \"Maison-Neue-Bolditalic\";\n  src: url(" + escape(__webpack_require__(19)) + ");\n  src: url(" + escape(__webpack_require__(19)) + "?#iefix) format(\"embedded-opentype\"), url(" + escape(__webpack_require__(65)) + ") format(\"woff2\"), url(" + escape(__webpack_require__(66)) + ") format(\"woff\");\n  font-weight: normal;\n  font-style: normal; }\n\n.handbook {\n  width: 100%; }\n  @media only screen and (min-width: 901px) {\n    .handbook {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-orient: horizontal;\n      -webkit-box-direction: normal;\n          -ms-flex-direction: row;\n              flex-direction: row;\n      -ms-flex-pack: distribute;\n          justify-content: space-around; } }\n  .handbook .handbook__sidebar {\n    width: 375px;\n    min-height: 100vh;\n    overflow-y: scroll;\n    padding: 45px;\n    background-color: #edeee9;\n    color: #000; }\n    @media only screen and (min-width: 901px) {\n      .handbook .handbook__sidebar {\n        -webkit-box-flex: 0;\n            -ms-flex-positive: 0;\n                flex-grow: 0;\n        -ms-flex-negative: 0;\n            flex-shrink: 0; } }\n  .handbook .handbook__main {\n    margin: 0 auto;\n    padding: 45px;\n    -webkit-box-align: start;\n        -ms-flex-align: start;\n            align-items: flex-start;\n    background-color: white; }\n    @media only screen and (min-width: 901px) {\n      .handbook .handbook__main {\n        -webkit-box-flex: 1;\n            -ms-flex: 1 auto;\n                flex: 1 auto; } }\n    .handbook .handbook__main .handbook__main__content {\n      width: 100%;\n      max-width: 770px;\n      margin: 0 auto; }\n      .handbook .handbook__main .handbook__main__content img {\n        max-width: 100%;\n        height: auto; }\n\n.sidebar .sidebar__logo {\n  margin-bottom: 3.5rem; }\n\n.sidebar .sidebar__search {\n  margin-bottom: 3.5rem; }\n\n.sidebar .sidebar__menus {\n  margin-bottom: 1rem; }\n\n@media only screen and (min-width: 901px) {\n  .handbook {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -ms-flex-pack: distribute;\n        justify-content: space-around; }\n  .handbook .handbook__main {\n    -ms-flex: 1 auto;\n    -webkit-box-flex: 1;\n            flex: 1 auto; } }\n\n@media only screen and (max-width: 900px) {\n  .off-canvas-menu .off-canvas-menu__content {\n    -webkit-transform: translateZ(0);\n    -webkit-transition: -webkit-transform .5s ease;\n    transform: translateZ(0);\n    transition: -webkit-transform .5s ease;\n    transition: transform .5s ease;\n    transition: transform .5s ease, -webkit-transform .5s ease;\n    transition: transform .5s ease,-webkit-transform .5s ease; } }\n\n.handbook {\n  width: 100%; }\n\n.handbook .handbook__main {\n  margin: 0 auto;\n  padding: 45px;\n  -ms-flex-align: start;\n  -webkit-box-align: start;\n          align-items: flex-start;\n  background-color: #fff; }\n\n.handbook .handbook__main .handbook__main__content {\n  width: 100%;\n  max-width: 770px;\n  margin: 0 auto; }\n\narticle, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {\n  display: block; }\n", ""]);
+exports.push([module.i, "@charset \"UTF-8\";\n/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */\n/* Document\n   ========================================================================== */\n/**\n * 1. Correct the line height in all browsers.\n * 2. Prevent adjustments of font size after orientation changes in\n *    IE on Windows Phone and in iOS.\n */\nhtml {\n  line-height: 1.15;\n  /* 1 */\n  -ms-text-size-adjust: 100%;\n  /* 2 */\n  -webkit-text-size-adjust: 100%;\n  /* 2 */ }\n\n/* Sections\n   ========================================================================== */\n/**\n * Remove the margin in all browsers (opinionated).\n */\nbody {\n  margin: 0; }\n\n/**\n * Add the correct display in IE 9-.\n */\narticle,\naside,\nfooter,\nheader,\nnav,\nsection {\n  display: block; }\n\n/**\n * Correct the font size and margin on `h1` elements within `section` and\n * `article` contexts in Chrome, Firefox, and Safari.\n */\nh1 {\n  font-size: 2em;\n  margin: 0.67em 0; }\n\n/* Grouping content\n   ========================================================================== */\n/**\n * Add the correct display in IE 9-.\n * 1. Add the correct display in IE.\n */\nfigcaption,\nfigure,\nmain {\n  /* 1 */\n  display: block; }\n\n/**\n * Add the correct margin in IE 8.\n */\nfigure {\n  margin: 1em 40px; }\n\n/**\n * 1. Add the correct box sizing in Firefox.\n * 2. Show the overflow in Edge and IE.\n */\nhr {\n  -webkit-box-sizing: content-box;\n          box-sizing: content-box;\n  /* 1 */\n  height: 0;\n  /* 1 */\n  overflow: visible;\n  /* 2 */ }\n\n/**\n * 1. Correct the inheritance and scaling of font size in all browsers.\n * 2. Correct the odd `em` font sizing in all browsers.\n */\npre {\n  font-family: monospace, monospace;\n  /* 1 */\n  font-size: 1em;\n  /* 2 */ }\n\n/* Text-level semantics\n   ========================================================================== */\n/**\n * 1. Remove the gray background on active links in IE 10.\n * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.\n */\na {\n  background-color: transparent;\n  /* 1 */\n  -webkit-text-decoration-skip: objects;\n  /* 2 */ }\n\n/**\n * 1. Remove the bottom border in Chrome 57- and Firefox 39-.\n * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.\n */\nabbr[title] {\n  border-bottom: none;\n  /* 1 */\n  text-decoration: underline;\n  /* 2 */\n  -webkit-text-decoration: underline dotted;\n          text-decoration: underline dotted;\n  /* 2 */ }\n\n/**\n * Prevent the duplicate application of `bolder` by the next rule in Safari 6.\n */\nb,\nstrong {\n  font-weight: inherit; }\n\n/**\n * Add the correct font weight in Chrome, Edge, and Safari.\n */\nb,\nstrong {\n  font-weight: bolder; }\n\n/**\n * 1. Correct the inheritance and scaling of font size in all browsers.\n * 2. Correct the odd `em` font sizing in all browsers.\n */\ncode,\nkbd,\nsamp {\n  font-family: monospace, monospace;\n  /* 1 */\n  font-size: 1em;\n  /* 2 */ }\n\n/**\n * Add the correct font style in Android 4.3-.\n */\ndfn {\n  font-style: italic; }\n\n/**\n * Add the correct background and color in IE 9-.\n */\nmark {\n  background-color: #ff0;\n  color: #000; }\n\n/**\n * Add the correct font size in all browsers.\n */\nsmall {\n  font-size: 80%; }\n\n/**\n * Prevent `sub` and `sup` elements from affecting the line height in\n * all browsers.\n */\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline; }\n\nsub {\n  bottom: -0.25em; }\n\nsup {\n  top: -0.5em; }\n\n/* Embedded content\n   ========================================================================== */\n/**\n * Add the correct display in IE 9-.\n */\naudio,\nvideo {\n  display: inline-block; }\n\n/**\n * Remove the border on images inside links in IE 10-.\n */\nimg {\n  border-style: none; }\n\n/**\n * Hide the overflow in IE.\n */\nsvg:not(:root) {\n  overflow: hidden; }\n\n/* Forms\n   ========================================================================== */\n/**\n * 1. Change the font styles in all browsers (opinionated).\n * 2. Remove the margin in Firefox and Safari.\n */\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: sans-serif;\n  /* 1 */\n  font-size: 100%;\n  /* 1 */\n  line-height: 1.15;\n  /* 1 */\n  margin: 0;\n  /* 2 */ }\n\n/**\n * Show the overflow in IE.\n * 1. Show the overflow in Edge.\n */\nbutton,\ninput {\n  /* 1 */\n  overflow: visible; }\n\n/**\n * Remove the inheritance of text transform in Edge, Firefox, and IE.\n * 1. Remove the inheritance of text transform in Firefox.\n */\nbutton,\nselect {\n  /* 1 */\n  text-transform: none; }\n\n/**\n * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`\n *    controls in Android 4.\n * 2. Correct the inability to style clickable types in iOS and Safari.\n */\nbutton,\nhtml [type=\"button\"],\n[type=\"reset\"],\n[type=\"submit\"] {\n  -webkit-appearance: button;\n  /* 2 */ }\n\n/**\n * Remove the inner border and padding in Firefox.\n */\nbutton::-moz-focus-inner,\n[type=\"button\"]::-moz-focus-inner,\n[type=\"reset\"]::-moz-focus-inner,\n[type=\"submit\"]::-moz-focus-inner {\n  border-style: none;\n  padding: 0; }\n\n/**\n * Restore the focus styles unset by the previous rule.\n */\nbutton:-moz-focusring,\n[type=\"button\"]:-moz-focusring,\n[type=\"reset\"]:-moz-focusring,\n[type=\"submit\"]:-moz-focusring {\n  outline: 1px dotted ButtonText; }\n\n/**\n * Correct the padding in Firefox.\n */\nfieldset {\n  padding: 0.35em 0.75em 0.625em; }\n\n/**\n * 1. Correct the text wrapping in Edge and IE.\n * 2. Correct the color inheritance from `fieldset` elements in IE.\n * 3. Remove the padding so developers are not caught out when they zero out\n *    `fieldset` elements in all browsers.\n */\nlegend {\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  /* 1 */\n  color: inherit;\n  /* 2 */\n  display: table;\n  /* 1 */\n  max-width: 100%;\n  /* 1 */\n  padding: 0;\n  /* 3 */\n  white-space: normal;\n  /* 1 */ }\n\n/**\n * 1. Add the correct display in IE 9-.\n * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.\n */\nprogress {\n  display: inline-block;\n  /* 1 */\n  vertical-align: baseline;\n  /* 2 */ }\n\n/**\n * Remove the default vertical scrollbar in IE.\n */\ntextarea {\n  overflow: auto; }\n\n/**\n * 1. Add the correct box sizing in IE 10-.\n * 2. Remove the padding in IE 10-.\n */\n[type=\"checkbox\"],\n[type=\"radio\"] {\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  /* 1 */\n  padding: 0;\n  /* 2 */ }\n\n/**\n * Correct the cursor style of increment and decrement buttons in Chrome.\n */\n[type=\"number\"]::-webkit-inner-spin-button,\n[type=\"number\"]::-webkit-outer-spin-button {\n  height: auto; }\n\n/**\n * 1. Correct the odd appearance in Chrome and Safari.\n * 2. Correct the outline style in Safari.\n */\n[type=\"search\"] {\n  -webkit-appearance: textfield;\n  /* 1 */\n  outline-offset: -2px;\n  /* 2 */ }\n\n/**\n * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.\n */\n[type=\"search\"]::-webkit-search-cancel-button,\n[type=\"search\"]::-webkit-search-decoration {\n  -webkit-appearance: none; }\n\n/**\n * 1. Correct the inability to style clickable types in iOS and Safari.\n * 2. Change font properties to `inherit` in Safari.\n */\n::-webkit-file-upload-button {\n  -webkit-appearance: button;\n  /* 1 */\n  font: inherit;\n  /* 2 */ }\n\n/* Interactive\n   ========================================================================== */\n/*\n * Add the correct display in IE 9-.\n * 1. Add the correct display in Edge, IE, and Firefox.\n */\ndetails,\nmenu {\n  display: block; }\n\n/*\n * Add the correct display in all browsers.\n */\nsummary {\n  display: list-item; }\n\n/* Scripting\n   ========================================================================== */\n/**\n * Add the correct display in IE 9-.\n */\ncanvas {\n  display: inline-block; }\n\n/**\n * Add the correct display in IE.\n */\ntemplate {\n  display: none; }\n\n/* Hidden\n   ========================================================================== */\n/**\n * Add the correct display in IE 10-.\n */\n[hidden] {\n  display: none; }\n\n/* Custom\n   ========================================================================== */\nhtml {\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box; }\n\n*, *:before, *:after {\n  -webkit-box-sizing: inherit;\n          box-sizing: inherit; }\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\np {\n  margin-top: 0; }\n\nul,\nol {\n  margin: 0;\n  padding: 0; }\n\ndl {\n  margin: 0; }\n\ndt, dd {\n  display: inline-block;\n  margin: 0;\n  padding: 0; }\n\n/*\n  @include media(\"md-up\") {\n    [styles for tablets and larger]\n  }\n  @include media(\"sm-down\") {\n    [styles for portrait tablets and smaller]\n  }\n*/\nbody {\n  color: #000000;\n  font-family: \"Maison-Neue-Light\", Helvetica, Arial;\n  font-size: 15px;\n  line-height: 1.5;\n  text-align: left;\n  background-color: #edeee9;\n  margin: 0;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale; }\n  @media only screen and (min-width: 769px) {\n    body {\n      font-size: 16px; } }\n\nh1,\n.h1 {\n  font-family: \"CircularStd-Bold\", Helvetica, Arial;\n  font-weight: normal;\n  color: #000000;\n  font-size: 38px;\n  line-height: 1.3; }\n\nh2,\n.h2 {\n  font-family: \"CircularStd-Bold\", Helvetica, Arial;\n  font-weight: normal;\n  color: #000000;\n  font-size: 30px;\n  line-height: 1.3;\n  text-align: left; }\n\nh3,\n.h3 {\n  font-family: \"CircularStd-Bold\", Helvetica, Arial;\n  font-weight: normal;\n  color: #000000;\n  font-size: 28px;\n  line-height: 1.3;\n  margin-bottom: 20px;\n  text-align: left; }\n\nh4,\n.h4 {\n  font-family: \"CircularStd-Bold\", Helvetica, Arial;\n  font-weight: normal;\n  color: #000000;\n  font-size: 27px;\n  line-height: 1.3;\n  margin-bottom: 20px;\n  text-align: left; }\n  @media only screen and (min-width: 769px) {\n    h4,\n    .h4 {\n      font-size: 24px; } }\n\nh5,\n.h5 {\n  font-family: \"CircularStd-Bold\", Helvetica, Arial;\n  font-weight: normal;\n  color: #000000;\n  font-size: 25px;\n  line-height: 1.3;\n  margin-bottom: 20px;\n  text-align: left; }\n  @media only screen and (min-width: 769px) {\n    h5,\n    .h5 {\n      font-size: 20px; } }\n\nh6,\n.h6 {\n  font-family: \"CircularStd-Bold\", Helvetica, Arial;\n  font-weight: normal;\n  color: #000000;\n  font-size: 22px;\n  line-height: 1.3;\n  margin-bottom: 10px;\n  text-align: left; }\n  @media only screen and (min-width: 769px) {\n    h6,\n    .h6 {\n      font-size: 18px; } }\n\np strong,\nul strong,\nol strong,\nlabel strong,\np b,\nul b,\nol b,\nlabel b {\n  font-family: \"Maison-Neue-Bold\", Helvetica, Arial;\n  font-weight: normal; }\n\n.noscroll {\n  overflow: hidden; }\n\n.container {\n  margin-left: auto;\n  margin-right: auto;\n  max-width: 600px;\n  width: calc(100% - (20px * 2)); }\n\n@media only screen and (min-width: 501px) {\n  .xs-visible {\n    display: none; } }\n\n.text-center {\n  text-align: center; }\n\n.list--bullet {\n  list-style: none;\n  margin-bottom: 40px; }\n  .list--bullet li {\n    position: relative;\n    padding-left: 35px; }\n    .list--bullet li + li {\n      margin-top: 10px; }\n    @media only screen and (min-width: 501px) {\n      .list--bullet li {\n        padding-left: 30px; } }\n    .list--bullet li::before {\n      content: '\\2022';\n      font-size: 40px;\n      position: absolute;\n      line-height: 15px;\n      left: 0;\n      top: 7px; }\n      @media only screen and (min-width: 501px) {\n        .list--bullet li::before {\n          font-size: 30px;\n          line-height: 16px;\n          top: 5px; } }\n\n@font-face {\n  font-family: 'icomoon';\n  src: url(" + escape(__webpack_require__(10)) + ");\n  src: url(" + escape(__webpack_require__(10)) + "#iefix) format(\"embedded-opentype\"), url(" + escape(__webpack_require__(43)) + ") format(\"woff2\"), url(" + escape(__webpack_require__(44)) + ") format(\"truetype\"), url(" + escape(__webpack_require__(45)) + ") format(\"woff\"), url(" + escape(__webpack_require__(46)) + "#icomoon) format(\"svg\");\n  font-weight: normal;\n  font-style: normal; }\n\n[class^=\"icon-\"], [class*=\" icon-\"] {\n  /* use !important to prevent issues with browser extensions that change fonts */\n  font-family: 'icomoon' !important;\n  speak: none;\n  font-style: normal;\n  font-weight: normal;\n  font-variant: normal;\n  text-transform: none;\n  line-height: 1;\n  /* Better Font Rendering =========== */\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale; }\n\n.icon-close:before {\n  content: \"\\E900\"; }\n\n.icon-breadcrumb-arrow:before {\n  content: \">\"; }\n\n.icon-bitbucket:before {\n  content: \"\\E901\"; }\n\n.icon-list:before {\n  content: \"\\E905\"; }\n\n.icon-github:before {\n  content: \"\\E902\"; }\n\n.icon-arrow-left:before {\n  content: \"\\E903\"; }\n\n.icon-arrow-right:before {\n  content: \"\\E904\"; }\n\n@font-face {\n  font-family: \"Circular-Bold-S\";\n  src: url(" + escape(__webpack_require__(11)) + ");\n  src: url(" + escape(__webpack_require__(11)) + "?#iefix) format(\"embedded-opentype\"), url(" + escape(__webpack_require__(47)) + ") format(\"woff2\"), url(" + escape(__webpack_require__(48)) + ") format(\"woff\");\n  font-weight: normal;\n  font-style: normal; }\n\n@font-face {\n  font-family: \"Circular-Bold-Italic\";\n  src: url(" + escape(__webpack_require__(12)) + ");\n  src: url(" + escape(__webpack_require__(12)) + "?#iefix) format(\"embedded-opentype\"), url(" + escape(__webpack_require__(49)) + ") format(\"woff2\"), url(" + escape(__webpack_require__(50)) + ") format(\"woff\");\n  font-weight: normal;\n  font-style: normal; }\n\n@font-face {\n  font-family: \"Circular-Book\";\n  src: url(" + escape(__webpack_require__(13)) + ");\n  src: url(" + escape(__webpack_require__(13)) + "?#iefix) format(\"embedded-opentype\"), url(" + escape(__webpack_require__(51)) + ") format(\"woff2\"), url(" + escape(__webpack_require__(52)) + ") format(\"woff\");\n  font-weight: normal;\n  font-style: normal; }\n\n@font-face {\n  font-family: \"Circular-Book-Italic\";\n  src: url(" + escape(__webpack_require__(14)) + ");\n  src: url(" + escape(__webpack_require__(14)) + "?#iefix) format(\"embedded-opentype\"), url(" + escape(__webpack_require__(53)) + ") format(\"woff2\"), url(" + escape(__webpack_require__(54)) + ") format(\"woff\");\n  font-weight: normal;\n  font-style: normal; }\n\n@font-face {\n  font-family: \"Maison-Neue-Light\";\n  src: url(" + escape(__webpack_require__(15)) + ");\n  src: url(" + escape(__webpack_require__(15)) + "?#iefix) format(\"embedded-opentype\"), url(" + escape(__webpack_require__(55)) + ") format(\"woff2\"), url(" + escape(__webpack_require__(56)) + ") format(\"woff\");\n  font-weight: normal;\n  font-style: normal; }\n\n@font-face {\n  font-family: \"Maison-Neue-Light-Italic\";\n  src: url(" + escape(__webpack_require__(16)) + ");\n  src: url(" + escape(__webpack_require__(16)) + "?#iefix) format(\"embedded-opentype\"), url(" + escape(__webpack_require__(57)) + ") format(\"woff2\"), url(" + escape(__webpack_require__(58)) + ") format(\"woff\");\n  font-weight: normal;\n  font-style: normal; }\n\n@font-face {\n  font-family: \"Maison-Neue-Medium\";\n  src: url(" + escape(__webpack_require__(17)) + ");\n  src: url(" + escape(__webpack_require__(17)) + "?#iefix) format(\"embedded-opentype\"), url(" + escape(__webpack_require__(59)) + ") format(\"woff2\"), url(" + escape(__webpack_require__(60)) + ") format(\"woff\");\n  font-weight: normal;\n  font-style: normal; }\n\n@font-face {\n  font-family: \"Maison-Neue-Mediumitalic\";\n  src: url(" + escape(__webpack_require__(18)) + ");\n  src: url(" + escape(__webpack_require__(18)) + "?#iefix) format(\"embedded-opentype\"), url(" + escape(__webpack_require__(61)) + ") format(\"woff2\"), url(" + escape(__webpack_require__(62)) + ") format(\"woff\");\n  font-weight: normal;\n  font-style: normal; }\n\n@font-face {\n  font-family: \"Maison-Neue-Bold\";\n  src: url(" + escape(__webpack_require__(19)) + ");\n  src: url(" + escape(__webpack_require__(19)) + "?#iefix) format(\"embedded-opentype\"), url(" + escape(__webpack_require__(63)) + ") format(\"woff2\"), url(" + escape(__webpack_require__(64)) + ") format(\"woff\");\n  font-weight: normal;\n  font-style: normal; }\n\n@font-face {\n  font-family: \"Maison-Neue-Bolditalic\";\n  src: url(" + escape(__webpack_require__(20)) + ");\n  src: url(" + escape(__webpack_require__(20)) + "?#iefix) format(\"embedded-opentype\"), url(" + escape(__webpack_require__(65)) + ") format(\"woff2\"), url(" + escape(__webpack_require__(66)) + ") format(\"woff\");\n  font-weight: normal;\n  font-style: normal; }\n\n.handbook {\n  width: 100%; }\n  @media only screen and (min-width: 901px) {\n    .handbook {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-orient: horizontal;\n      -webkit-box-direction: normal;\n          -ms-flex-direction: row;\n              flex-direction: row;\n      -ms-flex-pack: distribute;\n          justify-content: space-around; } }\n  .handbook .handbook__sidebar {\n    width: 375px;\n    min-height: 100vh;\n    overflow-y: scroll;\n    padding: 45px;\n    background-color: #edeee9;\n    color: #000; }\n    @media only screen and (min-width: 901px) {\n      .handbook .handbook__sidebar {\n        -webkit-box-flex: 0;\n            -ms-flex-positive: 0;\n                flex-grow: 0;\n        -ms-flex-negative: 0;\n            flex-shrink: 0; } }\n  .handbook .handbook__main {\n    margin: 0 auto;\n    padding: 45px;\n    -webkit-box-align: start;\n        -ms-flex-align: start;\n            align-items: flex-start;\n    background-color: white; }\n    @media only screen and (min-width: 901px) {\n      .handbook .handbook__main {\n        -webkit-box-flex: 1;\n            -ms-flex: 1 auto;\n                flex: 1 auto; } }\n    .handbook .handbook__main .handbook__main__content {\n      width: 100%;\n      max-width: 770px;\n      margin: 0 auto; }\n      .handbook .handbook__main .handbook__main__content img {\n        max-width: 100%;\n        height: auto; }\n\n.sidebar .sidebar__logo {\n  margin-bottom: 3.5rem; }\n\n.sidebar .sidebar__search {\n  margin-bottom: 3.5rem; }\n\n.sidebar .sidebar__menus {\n  margin-bottom: 1rem; }\n\n@media only screen and (min-width: 901px) {\n  .handbook {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -ms-flex-pack: distribute;\n        justify-content: space-around; }\n  .handbook .handbook__main {\n    -ms-flex: 1 auto;\n    -webkit-box-flex: 1;\n            flex: 1 auto; } }\n\n@media only screen and (max-width: 900px) {\n  .off-canvas-menu .off-canvas-menu__content {\n    -webkit-transform: translateZ(0);\n    -webkit-transition: -webkit-transform .5s ease;\n    transform: translateZ(0);\n    transition: -webkit-transform .5s ease;\n    transition: transform .5s ease;\n    transition: transform .5s ease, -webkit-transform .5s ease;\n    transition: transform .5s ease,-webkit-transform .5s ease; } }\n\n.handbook {\n  width: 100%; }\n\n.handbook .handbook__main {\n  margin: 0 auto;\n  padding: 45px;\n  -ms-flex-align: start;\n  -webkit-box-align: start;\n          align-items: flex-start;\n  background-color: #fff; }\n\n.handbook .handbook__main .handbook__main__content {\n  width: 100%;\n  max-width: 770px;\n  margin: 0 auto; }\n\narticle, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {\n  display: block; }\n", ""]);
 
 // exports
 
@@ -2050,4 +2052,4 @@ module.exports = __webpack_require__.p + "static/MaisonNeueWEB-BoldItalic.485194
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.1eb84ddd.js.map
+//# sourceMappingURL=static.3966a119.js.map
